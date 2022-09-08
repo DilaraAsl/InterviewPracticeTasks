@@ -7,7 +7,7 @@ public class KangarooJumps {
 
     public static String kangaroo(int x1, int v1, int x2, int v2) {
         // Write your code here
-        if (v1<=v2) return "NO";
+        if (v1<=v2) return "NO";// if Kangroo 1 is at the same speed or slower it will never catch up with Kangroo 2
         if(((x2-x1)%(v1-v2))==0) {
 
             System.out.println((x2-x1)%(v1-v2));
